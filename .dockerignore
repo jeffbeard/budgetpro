@@ -1,0 +1,15 @@
+node_modules
+npm-debug.log
+.git
+.github
+.local
+.upm
+*.md
+!README.md
+.replit
+.gitignore
+Dockerfile
+docker-compose.yml
+.env
+.env.*
+dist
