@@ -11,6 +11,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `npx vitest run tests/user.test.ts`: Run single test file
 - `npx vitest run --coverage`: Run tests with coverage
 
+## Docker Commands
+- `npm run docker:build`: Build Docker image
+- `npm run docker:dev`: Start development environment with Docker Compose
+- `npm run docker:test`: Run tests inside Docker container
+
+## CI/CD
+- GitHub Actions workflow in `.github/workflows/ci.yml`
+- Runs type checking, tests, and builds on pushes to main/develop branches
+
 ## Code Style Guidelines
 - TypeScript with strict mode enabled
 - React functional components with hooks
